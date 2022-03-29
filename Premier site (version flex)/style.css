@@ -1,0 +1,1371 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fece8c;
+}
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #fdc362;
+}
+.header h1 {
+  color: #d58127;
+  font: bold 40px "Fredoka One", cursive;
+}
+.top-title {
+  font: normal bold 39px "Fredoka One", cursive;
+  text-align: center;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 55px;
+  background-color: #f8bf73;
+}
+.menu a {
+  color: white;
+  font: normal 100 23px "Balsamiq Sans", cursive;
+  text-decoration: none;
+  height: 55px;
+  text-align: center;
+  border: 1px solid rgba(105, 105, 105, 0.575);
+  border-radius: 10px;
+}
+#ac,
+#ls {
+  width: 50%;
+  height: 100%;
+}
+#ctc {
+  width: 60%;
+  height: 100%;
+}
+#id {
+  width: 100%;
+  height: 100%;
+}
+.menu-in {
+  width: 40%;
+  height: 100%;
+  display: flex;
+}
+.menu #ac:hover {
+  background-color: rgba(0, 255, 123, 0.15);
+  border-top: 5px solid rgb(32, 146, 32);
+}
+.menu #ls:hover {
+  background-color: rgba(253, 133, 5, 0.15);
+  border-top: 5px solid rgb(252, 161, 3);
+}
+.menu #id:hover {
+  background-color: rgba(255, 0, 179, 0.15);
+  border-top: 5px solid rgb(255, 44, 185);
+}
+.menu #ctc:hover {
+  background-color: rgba(6, 160, 255, 0.15);
+  border-top: 5px solid rgb(8, 158, 233);
+}
+.t-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90px;
+}
+.t-1 h2 {
+  text-align: center;
+}
+.shiba-center {
+  display: flex;
+  height: 520px;
+}
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 500px;
+}
+.shiba-img {
+  width: 425px;
+  height: 280px;
+  border: groove 8px rgb(248, 179, 59);
+  box-shadow: 10px 10px 3px rgb(180, 130, 4);
+  padding: 5px;
+}
+.right {
+  width: 55%;
+  height: 500px;
+}
+.right p {
+  font: 35px "Dongle", sans-serif;
+  text-align: center;
+}
+.shiba-inright {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 85%;
+  height: 100%;
+}
+.shiba-link {
+  color: black;
+}
+.shiba-link:hover {
+  color: rgb(245, 98, 213);
+}
+
+/*ANIMATIONS SHIBA PAGE*/
+
+.shiba-img {
+  -webkit-animation-name: shiba-animation;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: shiba-animation;
+  -moz-animation-duration: 3s;
+  -o-animation-name: shiba-animation;
+  -o-animation-duration: 3s;
+  animation-name: shiba-animation;
+  animation-duration: 3s;
+}
+@-webkit-keyframes shiba-animation {
+  from {
+    width: 300px;
+    height: 200px;
+  }
+  to {
+    width: 425px;
+    height: 280px;
+  }
+}
+@-moz-keyframes shiba-animation {
+  from {
+    width: 300px;
+    height: 200px;
+  }
+  to {
+    width: 425px;
+    height: 280px;
+  }
+}
+@-o-keyframes shiba-animation {
+  from {
+    width: 300px;
+    height: 200px;
+  }
+  to {
+    width: 425px;
+    height: 280px;
+  }
+}
+@keyframes shiba-animation {
+  from {
+    width: 300px;
+    height: 200px;
+  }
+  to {
+    width: 425px;
+    height: 280px;
+  }
+}
+.shiba-inright p,
+.shiba-link {
+  -webkit-animation-name: p-shiba-animation;
+  -webkit-animation-duration: 5s;
+  -moz-animation-name: p-shiba-animation;
+  -moz-animation-duration: 5s;
+  -o-animation-name: p-shiba-animation;
+  -o-animation-duration: 5s;
+  animation-name: p-shiba-animation;
+  animation-duration: 5s;
+}
+@-webkit-keyframes p-shiba-animation {
+  from {
+    color: #fece8c;
+  }
+  to {
+    color: black;
+  }
+}
+@-moz-keyframes p-shiba-animation {
+  from {
+    color: #fece8c;
+  }
+  to {
+    color: black;
+  }
+}
+@-o-keyframes p-shiba-animation {
+  from {
+    color: #fece8c;
+  }
+  to {
+    color: black;
+  }
+}
+@keyframes p-shiba-animation {
+  from {
+    color: #fece8c;
+  }
+  to {
+    color: black;
+  }
+}
+
+/*STYLE PAGE LOISIRS*/
+
+.top-center {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 940px;
+}
+#t-left {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 35%;
+  height: 940px;
+}
+#t-right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 65%;
+  height: 100%;
+  font: 40px "Dongle", sans-serif;
+  text-align: center;
+}
+#in-right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  height: 100%;
+}
+.hob-link {
+  color: black;
+  text-decoration: underline;
+}
+.hob-link:hover {
+  color: rgb(245, 136, 94);
+}
+.ka {
+  width: 500px;
+  height: 740px;
+  border: double 7px rgb(248, 184, 99);
+}
+
+/*BOTTOM PART*/
+
+.bottom-center {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 670px;
+}
+#b-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  font: 40px "Dongle", sans-serif;
+}
+#in-leftbis {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  width: 86%;
+  height: 560px;
+}
+#b-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  height: 670px;
+}
+.dev-img {
+  border: double 7px rgb(248, 184, 99);
+  margin-bottom: 14%;
+}
+.title {
+  margin: 0;
+  margin-bottom: 10%;
+  font: 25px "Mochiy Pop P One", sans-serif;
+}
+
+/*ANIMATIONS LOISIRS PAGE*/
+
+.top-center {
+  -webkit-animation-name: volley-animation;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: volley-animation;
+  -moz-animation-duration: 3s;
+  -o-animation-name: volley-animation;
+  -o-animation-duration: 3s;
+  animation-name: volley-animation;
+  animation-duration: 3s;
+}
+@-webkit-keyframes volley-animation {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+@-moz-keyframes volley-animation {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+@-o-keyframes volley-animation {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+@keyframes volley-animation {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+.bottom-center {
+  -webkit-animation-name: dev-animation;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: dev-animation;
+  -moz-animation-duration: 3s;
+  -o-animation-name: dev-animation;
+  -o-animation-duration: 3s;
+  animation-name: dev-animation;
+  animation-duration: 3s;
+}
+@-webkit-keyframes dev-animation {
+  from {
+    margin-left: 20%;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+@-moz-keyframes dev-animation {
+  from {
+    margin-left: 20%;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+@-o-keyframes dev-animation {
+  from {
+    margin-left: 20%;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+@keyframes dev-animation {
+  from {
+    margin-left: 20%;
+  }
+  to {
+    margin-left: 0px;
+  }
+}
+
+/*PAGE IDÉE PROFESSIONELLES*/
+
+.top {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  justify-content: space-around;
+}
+.in-top {
+  width: 90%;
+  height: 200px;
+}
+.in-top p {
+  text-align: center;
+  font: normal normal 25px "Varela Round", sans-serif;
+}
+
+/*TOP*/
+
+.center {
+  width: 100%;
+  height: 980px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.left1,
+.middle,
+.right1 {
+  width: 510px;
+  height: 870px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.left1 {
+  background-color: #e1b0fd;
+  border: solid 10px rgb(228, 152, 251);
+}
+.middle {
+  background-color: rgb(180, 175, 255);
+  border: solid 10px rgb(177, 143, 255);
+}
+.right1 {
+  background-color: rgb(164, 211, 250);
+  border: solid 10px rgb(133, 184, 250);
+}
+.t-info,
+.t-issue,
+.t-volley {
+  font: 30px "Fredoka One", cursive;
+}
+.t-info {
+  color: rgb(228, 117, 250);
+}
+.t-issue {
+  color: rgb(169, 126, 248);
+}
+.t-volley {
+  color: rgb(90, 184, 247);
+}
+.in-right1 p,
+.middle p,
+.in-left1 p {
+  font: 25px "Varela Round", sans-serif;
+}
+.in-left1 {
+  width: 90%;
+  height: 100%;
+}
+.in-middle {
+  width: 90%;
+  height: 100%;
+}
+.in-right1 {
+  width: 90%;
+  height: 100%;
+}
+
+/*HOVERS PAGE IDEES PRO*/
+
+.left1:hover {
+  box-shadow: -5px -3px 80px rgb(185, 74, 250);
+}
+.in-left1 p:hover {
+  font-size: 28px;
+}
+.middle:hover {
+  box-shadow: 5px -3px 80px rgb(123, 109, 245);
+}
+.in-middle p:hover {
+  font-size: 26px;
+}
+.right1:hover {
+  box-shadow: 5px 3px 80px rgb(101, 141, 252);
+}
+.in-right1 p:hover {
+  font-size: 28px;
+}
+
+/*ANIMATIONS PAGE IDEES PRO*/
+
+.center {
+  -webkit-animation-name: id-animation;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: id-animation;
+  -moz-animation-duration: 3s;
+  -o-animation-name: id-animation;
+  -o-animation-duration: 3s;
+  animation-name: id-animation;
+  animation-duration: 3s;
+}
+@-webkit-keyframes id-animation {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+@-moz-keyframes id-animation {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+@-o-keyframes id-animation {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+@keyframes id-animation {
+  from {
+    margin-left: -20%;
+  }
+  to {
+    margin-left: 0%;
+  }
+}
+/*Contact Page*/
+
+.ctc-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+.ctc-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 510px;
+  background-color: #e1b0fdab;
+}
+.ctc-incenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 30%;
+  height: 510px;
+  background-color: rgba(127, 255, 212, 0.37);
+  border: double 6px rgba(63, 187, 146, 0.589);
+}
+.mid-ctc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  height: 330px;
+  background-color: #f095d962;
+  border: 2px solid #f087d681;
+  border-radius: 10px;
+}
+#mail-to {
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+  position: relative;
+  background-image: url("imgs/e-mail-logos.png");
+  background-position: 300px 80px;
+}
+#mon-email {
+  font: normal normal 25px "Palanquin Dark", sans-serif;
+  color: #cf6eca;
+}
+#e-mail {
+  font: normal bold 33px "Dongle", sans-serif;
+  color: rgb(245, 138, 165);
+}
+#mon-email:hover {
+  text-decoration: underline;
+}
+
+/*ANIMATIONS PAGE CONTACT*/
+
+#mon-email {
+  -webkit-animation-name: mon-email-animation;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: mon-email-animation;
+  -moz-animation-duration: 3s;
+  -o-animation-name: mon-email-animation;
+  -o-animation-duration: 3s;
+  animation-name: mon-email-animation;
+  animation-duration: 3s;
+}
+@-webkit-keyframes mon-email-animation {
+  from {
+    color: rgba(141, 133, 133, 0.685);
+    font-size: 20px;
+  }
+  to {
+    color: #cf6eca;
+    font-size: 25px;
+  }
+}
+@-moz-keyframes mon-email-animation {
+  from {
+    color: rgba(141, 133, 133, 0.685);
+    font-size: 20px;
+  }
+  to {
+    color: #cf6eca;
+    font-size: 25px;
+  }
+}
+@-o-keyframes mon-email-animation {
+  from {
+    color: rgba(141, 133, 133, 0.685);
+    font-size: 20px;
+  }
+  to {
+    color: #cf6eca;
+    font-size: 25px;
+  }
+}
+@keyframes mon-email-animation {
+  from {
+    color: rgba(141, 133, 133, 0.685);
+    font-size: 20px;
+  }
+  to {
+    color: #cf6eca;
+    font-size: 25px;
+  }
+}
+#e-mail {
+  -webkit-animation-name: e-mail-animation;
+  -webkit-animation-duration: 3s;
+  -moz-animation-name: e-mail-animation;
+  -moz-animation-duration: 3s;
+  -o-animation-name: e-mail-animation;
+  -o-animation-duration: 3s;
+  animation-name: e-mail-animation;
+  animation-duration: 3s;
+}
+@-webkit-keyframes e-mail-animation {
+  from {
+    color: rgba(141, 133, 133, 0.685);
+    font-size: 30px;
+  }
+  to {
+    color: rgb(245, 138, 165);
+    font-size: 33px;
+  }
+}
+@-moz-keyframes e-mail-animation {
+  from {
+    color: rgba(141, 133, 133, 0.685);
+    font-size: 30px;
+  }
+  to {
+    color: rgb(245, 138, 165);
+    font-size: 33px;
+  }
+}
+@-o-keyframes e-mail-animation {
+  from {
+    color: rgba(141, 133, 133, 0.685);
+    font-size: 30px;
+  }
+  to {
+    color: rgba(141, 133, 133, 0.685);
+    font-size: 33px;
+  }
+}
+@keyframes e-mail-animation {
+  from {
+    color: rgba(141, 133, 133, 0.685);
+    font-size: 30px;
+  }
+  to {
+    color: rgb(245, 138, 165);
+    font-size: 33px;
+  }
+}
+#mail-to {
+  -webkit-animation-name: mail-to-animation;
+  -webkit-animation-duration: 4s;
+  -moz-animation-name: mail-to-animation;
+  -moz-animation-duration: 4s;
+  -o-animation-name: mail-to-animation;
+  -o-animation-duration: 4s;
+  animation-name: mail-to-animation;
+  animation-duration: 4s;
+}
+@-webkit-keyframes mail-to-animation {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 4;
+  }
+}
+@-moz-keyframes mail-to-animation {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 4;
+  }
+}
+@-o-keyframes mail-to-animation {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 4;
+  }
+}
+@keyframes mail-to-animation {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 4;
+  }
+}
+/*FOOTER PART*/
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 125px;
+  background-color: #f8bf73;
+}
+.footer p {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+}
+
+/*MEDIA QUERIES PART*/
+
+@media screen and (max-width: 1865px) and (min-width: 1491px) {
+  .menu-in {
+    width: 50%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1700px) {
+  #t-left {
+    width: 35%;
+  }
+  #t-right {
+    width: 65%;
+  }
+  .ka {
+    width: 380px;
+    height: 580px;
+  }
+  .top-center {
+    height: 800px;
+  }
+  .top-center p,
+  .hob-link {
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 1550px) and (min-width: 1271px) {
+  .shiba-img {
+    width: 390px;
+    height: 260px;
+  }
+  @-webkit-keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 390px;
+      height: 260px;
+    }
+  }
+  @-moz-keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 390px;
+      height: 260px;
+    }
+  }
+  @-o-keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 390px;
+      height: 260px;
+    }
+  }
+  @keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 390px;
+      height: 260px;
+    }
+  }
+  .shiba-inright {
+    width: 90%;
+    height: 100%;
+  }
+  .left {
+    width: 40%;
+    height: 500px;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 1491px) and (min-width: 1270px) {
+  .menu-in {
+    width: 60%;
+    height: 100%;
+  }
+  .ka {
+    height: 530px;
+    width: 340px;
+  }
+  .top-center {
+    height: 700px;
+  }
+  .top-center p {
+    font-size: 30px;
+  }
+  .hob-link {
+    font-size: 32px;
+  }
+  #in-right {
+    height: 650px;
+  }
+}
+@media screen and (max-width: 1350px) and (min-width: 1270px) {
+  .top-center p {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1270px) and (min-width: 1071px) {
+  .menu-in {
+    width: 70%;
+    height: 100%;
+  }
+  .shiba-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+  }
+  .left {
+    width: 100%;
+    height: 400px;
+  }
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .ka {
+    width: 300px;
+    height: 480px;
+  }
+  .top-center {
+    height: 630px;
+  }
+  .top-center p {
+    font-size: 27px;
+  }
+  .hob-link {
+    font-size: 29px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .top-center {
+    height: 540px;
+  }
+  .title {
+    font-size: 20px;
+  }
+  .ka {
+    width: 250px;
+    height: 400px;
+  }
+  #t-right {
+    width: 70%;
+  }
+  #t-left {
+    width: 30%;
+    height: 100%;
+  }
+  #in-right {
+    width: 80%;
+    height: 100%;
+  }
+  #in-right p {
+    font-size: 24px;
+  }
+  .hob-link {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 1070px) and (min-width: 981px) {
+  .menu-in {
+    width: 100%;
+  }
+  .shiba-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+  }
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+  }
+  .shiba-img {
+    width: 390px;
+    height: 250px;
+  }
+  @-webkit-keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 390px;
+      height: 250px;
+    }
+  }
+  @-moz-keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 390px;
+      height: 250px;
+    }
+  }
+  @-o-keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 390px;
+      height: 250px;
+    }
+  }
+  @keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 390px;
+      height: 250px;
+    }
+  }
+}
+@media screen and (max-width: 1070px) {
+  .top-center {
+    height: 500px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .ka {
+    width: 220px;
+    height: 350px;
+  }
+  #t-right {
+    width: 70%;
+  }
+  #t-left {
+    width: 30%;
+    height: 100%;
+  }
+  #in-right {
+    width: 85%;
+    height: 100%;
+  }
+  #in-right p {
+    font-size: 22px;
+  }
+  .hob-link {
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 980px) and (min-width: 750px) {
+  .menu-in {
+    width: 100%;
+  }
+  .shiba-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 800px;
+  }
+  .left {
+    width: 100%;
+    height: 380px;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 450px;
+  }
+}
+@media screen and (max-width: 980px) {
+  .top-center {
+    z-index: 1;
+    width: 100%;
+    background-image: url("imgs/hinata-shoyo.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.5;
+    height: 400px;
+  }
+  #in-right p {
+    color: rgb(224, 50, 137);
+    opacity: 1;
+    z-index: 2;
+    -webkit-transition: 2s color;
+    -moz-transition: 2s color;
+    -o-transition: 2s color;
+    transition: 2s color;
+    font-size: 20px;
+  }
+  #in-right p:hover {
+    color: rgb(84, 158, 243);
+    font-weight: bold;
+    font-size: 22px;
+  }
+}
+#t-left {
+  display: none;
+}
+#t-right {
+  width: 100%;
+}
+@media screen and (max-width: 750px) {
+  .top-center {
+    height: 350px;
+  }
+  .hob-link {
+    font-size: 21px;
+  }
+  #in-right {
+    height: 350px;
+  }
+  #in-right p {
+    font-size: 18px;
+  }
+  #in-right p:hover {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 301px) {
+  #id,
+  #ac,
+  #ls,
+  #ctc {
+    width: 100%;
+    height: 40%;
+  }
+  .menu {
+    width: 100%;
+    height: 200px;
+  }
+  .menu-in {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .menu a {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 601px) {
+  .shiba-img {
+    width: 350px;
+    height: 240px;
+  }
+  @-webkit-keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 350px;
+      height: 240px;
+    }
+  }
+  @-moz-keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 350px;
+      height: 240px;
+    }
+  }
+  @-o-keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 350px;
+      height: 240px;
+    }
+  }
+  @keyframes shiba-animation {
+    from {
+      width: 300px;
+      height: 200px;
+    }
+    to {
+      width: 350px;
+      height: 240px;
+    }
+  }
+  .shiba-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 850px;
+  }
+  .left {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+  }
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 65%;
+  }
+  .shiba-inright {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 650px) {
+  #in-right p {
+    font-size: 16px;
+  }
+  #in-right p:hover {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 400px) {
+  .shiba-img {
+    width: 320px;
+    height: 220px;
+  }
+  @-webkit-keyframes shiba-animation {
+    from {
+      width: 130px;
+      height: 140px;
+    }
+    to {
+      width: 280px;
+      height: 190px;
+    }
+  }
+  @-moz-keyframes shiba-animation {
+    from {
+      width: 130px;
+      height: 140px;
+    }
+    to {
+      width: 280px;
+      height: 190px;
+    }
+  }
+  @-o-keyframes shiba-animation {
+    from {
+      width: 130px;
+      height: 140px;
+    }
+    to {
+      width: 280px;
+      height: 190px;
+    }
+  }
+  @keyframes shiba-animation {
+    from {
+      width: 130px;
+      height: 140px;
+    }
+    to {
+      width: 280px;
+      height: 190px;
+    }
+  }
+  .shiba-center {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+  }
+  .left {
+    width: 100%;
+    height: 35%;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    height: 65%;
+    width: 100%;
+  }
+  .right p {
+    font-size: 30px;
+  }
+  #in-right p {
+    font-size: 15px;
+  }
+  #in-right p:hover {
+    font-size: 17px;
+  }
+  .hob-link {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #in-right p {
+    font-size: 12px;
+  }
+  #in-right p:hover {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header h1 {
+    font-size: 35px;
+  }
+  .shiba-img {
+    width: 280px;
+    height: 190px;
+  }
+  @-webkit-keyframes shiba-animation {
+    from {
+      width: 130px;
+      height: 140px;
+    }
+    to {
+      width: 280px;
+      height: 190px;
+    }
+  }
+  @-moz-keyframes shiba-animation {
+    from {
+      width: 130px;
+      height: 140px;
+    }
+    to {
+      width: 280px;
+      height: 190px;
+    }
+  }
+  @-o-keyframes shiba-animation {
+    from {
+      width: 130px;
+      height: 140px;
+    }
+    to {
+      width: 280px;
+      height: 190px;
+    }
+  }
+  @keyframes shiba-animation {
+    from {
+      width: 130px;
+      height: 140px;
+    }
+    to {
+      width: 280px;
+      height: 190px;
+    }
+  }
+  .shiba-center {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 900px;
+  }
+  .left {
+    width: 100%;
+    height: 35%;
+  }
+  .right {
+    display: flex;
+    justify-content: center;
+    height: 65%;
+    width: 100%;
+  }
+  .shiba-inright {
+    width: 95%;
+  }
+  .right p {
+    font-size: 30px;
+  }
+}
+/*MAX HEIGHT MEDIA QUERIES*/
